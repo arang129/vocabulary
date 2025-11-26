@@ -21,7 +21,7 @@ def setup_vocabulary():
         'launcher_entry': {
             'enabled': True,
             'icon_path': '/opt/tljh/hub/share/jupyterhub/vocabulary.svg',
-            'title': 'pgweb',
+            'title': '單字背誦',
         },
     }
 
