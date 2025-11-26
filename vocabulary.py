@@ -12,15 +12,15 @@ __version__ = '0.032'
 # This is the entry point for jupyter-server-proxy . The packaging metadata
 # tells it about this function. For details, see:
 # https://jupyter-server-proxy.readthedocs.io/en/latest/server-process.html
-def setup_jupyterpgweb():
+def setup_vocabulary():
     # Using a Unix socket prevents other users on a multi-user system from accessing
     # our server. The alternative is a TCP socket ('-p', '{port}').
     return {
-        'command': [sys.executable, '-m', 'jupyterpgweb', '-u', '{unix_socket}'],
+        'command': [sys.executable, '-m', 'vocabulary', '-u', '{unix_socket}'],
         'unix_socket': True,
         'launcher_entry': {
             'enabled': True,
-            'icon_path': '/opt/tljh/hub/share/jupyterhub/jupyterpgweb.svg',
+            'icon_path': '/opt/tljh/hub/share/jupyterhub/vocabulary.svg',
             'title': 'pgweb',
         },
     }
@@ -69,7 +69,7 @@ TEMPLATE = """\
 <html>
 <head>
     <title>pgweb</title>
-    <link rel="icon" type="image/png" href="https://www.myqnap.org/wp-content/uploads/pgweb-logo.png">
+    <link rel="icon" type="image/png" href="https://filedn.com/lis7HUHooHlYXGBuwelEvA5/%E5%9C%96%E7%89%87/typewords.png">
     
     <style>
         body {{
@@ -80,7 +80,7 @@ TEMPLATE = """\
     </style>
 </head>
 <body>
-    <iframe src="https://jupyterpgweb.yunlab.app/" 
+    <iframe src="https://typewords.yunlab.app/" 
             style="width: 100vw; height: 100vh; border: none;">
     </iframe>
 </body>
