@@ -68,7 +68,7 @@ TEMPLATE = """\
 <!DOCTYPE html>
 <html>
 <head>
-    <title>pgweb</title>
+    <title>單字背誦</title>
     <link rel="icon" type="image/png" href="https://filedn.com/lis7HUHooHlYXGBuwelEvA5/%E5%9C%96%E7%89%87/typewords.png">
     
     <style>
