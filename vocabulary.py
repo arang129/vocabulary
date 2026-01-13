@@ -80,7 +80,7 @@ TEMPLATE = """\
     </style>
 </head>
 <body>
-    <iframe src="https://typewords.yunlab.app/" 
+    <iframe src="https://servertypewords.yunlab.app/" 
             style="width: 100vw; height: 100vh; border: none;">
     </iframe>
 </body>
